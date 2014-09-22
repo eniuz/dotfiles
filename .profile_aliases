@@ -1,0 +1,75 @@
+# -------------------------------------------------------------------
+# Git aliases
+# -------------------------------------------------------------------
+ 
+alias ga='git add -A'
+alias gp='git push'
+alias gl='git log'
+alias gs='git status'
+alias gd='git diff'
+alias gm='git commit -m'
+alias gma='git commit -am'
+alias gb='git branch'
+alias gc='git checkout'
+alias gra='git remote add'
+alias grr='git remote rm'
+alias gpu='git pull'
+alias gcl='git clone'
+alias gta='git tag -a -m'
+alias gf='git reflog'
+ 
+# leverage an alias from the ~/.gitconfig
+alias gh='git hist'
+alias glg1='git lg1'
+alias glg2='git lg2'
+alias glg='git lg'
+ 
+# -------------------------------------------------------------------
+# Capistrano aliases
+# -------------------------------------------------------------------
+ 
+alias capd='cap deploy'
+ 
+# -------------------------------------------------------------------
+# OTHER aliases
+# -------------------------------------------------------------------
+ 
+alias cl='clear'
+alias robo="/usr/bin/robo"
+alias srm="sudo rm -rf"
+alias composer="/usr/local/bin/composer"
+alias composer-update="sudo /usr/local/bin/composer self-update"
+alias composer-sudo="sudo /usr/local/bin/composer"
+alias selenium-start="java -jar /usr/local/bin/selenium-server.jar > /dev/null 2>&1"
+alias phpunit="/usr/local/bin/phpunit"
+alias ls='ls --color="auto"'
+alias lal="ls -lasht"
+alias apache-restart="sudo service apache2 restart"
+alias apache-home="cd /etc/apache2"
+alias vhosts="cd /etc/apache2/sites-available"
+alias apps="cd ~/apps"
+alias desktop="cd ~/Desktop"
+alias downloads="cd ~/Downloads"
+alias dox="cd ~/Documents"
+alias vids="cd ~/Videos"
+alias sf="app/console"
+alias syf="bin/console"
+alias snippets="cd ~/snippets"
+alias start-sahi="~/sahi/bin/sahi.sh"
+alias phpuml="~/phpuml/bin/phpuml"
+alias zft="~/bin/zftool.phar"
+alias napraw-mongo="~/snippets/mongo-connection-error.sh"
+alias mongolog="tail -f /var/log/mongodb/mongodb.log"
+alias mt="cd ~/apps/magetest"
+alias show-aliases="cat $HOME/.zshrc | grep alias | more"
+alias home="cd ~"
+alias jenkins-home="/var/lib/jenkins"
+alias swapcaps="xmodmap ~/.xmodmap"
+alias boxes="cd ~/boxes"
+# Run scanner
+alias scanner="scangearmp"
+alias bower='noglob bower'
+alias remove-git="find . -type d -name \.git -exec rm -rf {} \;"
+alias lara="cd ~/lara-projects"
+alias artisan="./artisan"
+alias apt-search="apt-cache search"
